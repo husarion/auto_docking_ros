@@ -5,6 +5,9 @@ project(auto_docking)
 
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(aruco_opencv_msgs REQUIRED)
+find_package(aruco_opencv REQUIRED)
 
 ### Libraries and executables ###
 
@@ -14,6 +17,9 @@ include_directories(
 
 set(dependencies
   rclcpp
+  geometry_msgs
+  aruco_opencv_msgs
+  aruco_opencv
 )
 
 set(executable_name auto_docking)

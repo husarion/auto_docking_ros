@@ -9,6 +9,10 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <depend>geometry_msgs</depend>
+  <depend>aruco_opencv_msgs</depend>
+  <depend>aruco_opencv</depend>
+
   <test_depend>ament_lint_auto</test_depend>
   
   <test_depend>ament_cmake_clang_format</test_depend>
