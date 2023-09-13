@@ -4,7 +4,7 @@ Package with ROS2 node responsible for mobile robot auto docking.
 
 #### auto_docking_node
 
-Node is responsible for auto-docking mobile robots, requires former pose estimation of the dock. The exact estimation technique is not relevant to this node, the recommended approach is to use a camera and ArUco tag.
+Node is responsible for auto-docking mobile robots, requires former pose estimation of the dock. Pose estimation is based on the camera and ArUco tag.
 
 **Subscribers**
 
