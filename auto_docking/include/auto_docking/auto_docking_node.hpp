@@ -46,7 +46,7 @@ private:
   /// @brief Subscription of detection state message
   rclcpp::Subscription<ArUcoDetectionMsg>::SharedPtr tag_detection_sub_;
 
-  /// @brief Publisher of encoded UDP packet
+  /// @brief Publisher of the velocity command
   rclcpp::Publisher<TwistMsg>::SharedPtr cmd_vel_pub_;
 };
 
